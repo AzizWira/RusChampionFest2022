@@ -1,0 +1,35 @@
+#scrollToTop {
+  position: fixed;
+  bottom: 3rem;
+  color: #fff;
+  background-color: #8bc1ff;
+  right: 3rem;
+  box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -12rem;
+  transition: margin-bottom 0.2s;
+  cursor: pointer;
+  z-index: 1000;
+}
+#scrollToTop.active {
+  margin-bottom: 0;
+}
+#scrollToTop:hover {
+  box-shadow: 4px 8px 71px 3px rgb(0, 153, 255);
+}
+
+@-webkit-keyframes rotate {
+  to {
+    transform: rotate(720deg);
+  }
+}
+@keyframes rotate {
+  to {
+    transform: rotate(720deg);
+  }
+}/*# sourceMappingURL=button.css.map */
